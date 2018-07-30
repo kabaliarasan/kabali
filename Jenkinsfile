@@ -20,9 +20,10 @@ pipeline {
                    }
 
            stage ('Deployment any Stage') {
+
                        steps {
 
-                               sh 'mvn deploy'
+                               sh 'mvn install'
                            }
                        }
                    }
