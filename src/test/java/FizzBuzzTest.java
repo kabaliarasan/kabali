@@ -28,7 +28,10 @@ class FizzBuzzTest {
     public void testBuzz() {
         String fizzBuzz = fB.play(5);
         Assertions.assertEquals(fizzBuzz, "Buzz");
+
+        System.out.println("New");
     }
+
 
 
 
