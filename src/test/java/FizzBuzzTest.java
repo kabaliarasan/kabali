@@ -29,7 +29,7 @@ class FizzBuzzTest {
         String fizzBuzz = fB.play(5);
         Assertions.assertEquals(fizzBuzz, "Buzz");
 
-        System.out.println("New");
+        System.out.println("This is testbuzz method");
     }
 
 
