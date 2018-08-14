@@ -4,5 +4,6 @@ public class Test {
 
     {
         System.out.println("Test Successful");
+        System.out.println("This is second sucess message");
     }
 }
