@@ -29,4 +29,13 @@ pipeline {
                    }
 
 
+      post {
+        always {
+            step([$class: 'Mailer',
+                notifyEveryUnstableBuild: true,
+                recipients: "veeramanit@cpbm.com",
+                sendToIndividuals: true])
+        }
+    }
+      
 }
